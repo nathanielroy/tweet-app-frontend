@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Tweet } from '../models/tweet';
 
-const API_URL = 'http://localhost:8888/';
+const API_URL = 'http://nodebk-env.eba-knmrnbsf.us-east-1.elasticbeanstalk.com/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' }),

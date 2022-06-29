@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'http://localhost:8888/api/test/';
+const API_URL = 'http://nodebk-env.eba-knmrnbsf.us-east-1.elasticbeanstalk.com/api/test/';
 
-const USERS_API_URL = 'http://localhost:8888/api/users/';
+const USERS_API_URL = 'http://nodebk-env.eba-knmrnbsf.us-east-1.elasticbeanstalk.com/api/users/';
 
 @Injectable({
   providedIn: 'root',
